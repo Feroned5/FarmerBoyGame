@@ -1,0 +1,68 @@
+.background{
+    background-image: url("background2.png");
+    background-size: 103%;
+    overflow: hidden;
+}
+.boy{
+    height: 200px;
+    margin-top: 615px;
+    position: absolute;
+
+}
+
+.score{
+    margin-top: 30px;
+    margin-left: 1770px;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Fredoka One";
+    color: rgb(0, 81, 255);
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px;
+    text-shadow: 5px;
+    text-shadow: black;
+}
+
+.endbg{
+    background-image: url(background2.png);
+    background-size: 100%;
+    backdrop-filter: blur(50px);
+}
+
+.lose{
+    margin-left: 755px;
+    margin-top: 120px;
+    color: rgb(224, 0, 0);
+    font-size: 50px;
+    font-family: "Fredoka one";
+    font-weight: lighter;
+    position: absolute;
+}
+
+.start-btn{
+    background-color: rgb(0, 110, 255);
+    font-family: "Fredoka one";
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 100px;
+    margin-left: 650px;
+    margin-top: 200px;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    border: none;
+}
+
+.start-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(36, 131, 255);;
+}
+
+
+.flame{
+    height: 90px;
+    margin-top: 725px;
+    position: absolute;
+
+}
